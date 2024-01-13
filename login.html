@@ -49,11 +49,11 @@
             </form>
 
             <form id="register" class="input-group">
-                <input type="text" class="input-field" placeholder="Enter Username" required>
-                <input type="email" class="input-field" placeholder="Enter Email address" required>
-                <input type="password" class="input-field" placeholder="Enter Password" required>
-                <input type="password" class="input-field" placeholder="Confirm Password" required>
-                <input type="checkbox" class="check-box"><span>Agree T&C</span>
+                <input type="text" class="input-field" placeholder="Enter Your Name" required id="name">
+                <input type="email" class="input-field" placeholder="Enter Email address" required id="email">
+                <input type="password" class="input-field" placeholder="Enter Password" required id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+                <input type="password" class="input-field" placeholder="Confirm Password" required id="confirmPassword">
+                <input type="checkbox" class="check-box" required title="please agree to terms and conditions"><span>Agree T&C</span>
                 <button type="submit" class="submit-btn">Register</button>
             </form>
         </div>
