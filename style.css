@@ -70,9 +70,9 @@
         height: 480px;
         position: relative;
         margin: 6% auto;
-        /* background: white; */
-        background-image: url('img/bgl.jfif');
-        background-size: cover;
+        background: white;
+        /* background-image: url('img/bgl.jfif'); */
+        /* background-size: cover; */
         padding: 5px;
         overflow: hidden;
         border-radius: 50px;
